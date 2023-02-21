@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+li {
+  float: right;
+}
+
+ul {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(175, 174, 174);
+}
+li ,img{
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.background{
+  background-image:url("https://cdn.shopify.com/s/files/1/0969/9128/collections/black-and-white.jpg?v=1441963817");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: stretch;
+  width:500px;
+  height: 30px;
+  position: absolute;
+  /*border: 5px solid black;*/
+  margin-left: 30em;
+  margin-right:45em;
+  margin-top: 15em;
+  
+ /* padding:100px;*/
+}
+input[type=text]{
+
+  width: 60%;
+  height: 30px
+}
+
+div button:hover{
+  background-color:gray;
+}
+.welcome{
+  display: inline;
+  margin-left: 500px;
+ 
+}
